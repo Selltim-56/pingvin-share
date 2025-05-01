@@ -3,16 +3,16 @@ import { MantineThemeOverride } from "@mantine/core";
 export default <MantineThemeOverride>{
   colors: {
     victoria: [
-      "#fce7f3",
-      "#fbcfe8",
-      "#f9a8d4",
-      "#f472b6",
-      "#ec4899",
-      "#db2777",
-      "#be185d",
-      "#9d174d",
-      "#831843",
-      "#500724",
+      "#ffe9f6",
+      "#ffd1e6",
+      "#faa1c9",
+      "#f66eab",
+      "#f24391",
+      "#f02981",
+      "#f01879",
+      "#d60867",
+      "#c0005c",
+      "#a9004f"
     ],
   },
   primaryColor: "victoria",

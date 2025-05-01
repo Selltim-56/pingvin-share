@@ -104,7 +104,7 @@ const useStyles = createStyles((theme) => ({
           ? theme.fn.rgba(theme.colors[theme.primaryColor][9], 0.25)
           : theme.colors[theme.primaryColor][0],
       color:
-        theme.colors[theme.primaryColor][theme.colorScheme === "dark" ? 3 : 5],
+        theme.colors[theme.primaryColor][theme.colorScheme === "dark" ? 3 : 7],
     },
   },
 }));

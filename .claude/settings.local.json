@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(npx prisma migrate dev:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(find:*)",
+      "Bash(xargs cat:*)"
     ]
   }
 }

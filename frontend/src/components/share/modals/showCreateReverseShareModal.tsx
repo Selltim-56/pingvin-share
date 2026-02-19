@@ -8,6 +8,7 @@ import {
   Stack,
   Switch,
   Text,
+  TextInput,
 } from "@mantine/core";
 import { useForm, yupResolver } from "@mantine/form";
 import { useModals } from "@mantine/modals";
@@ -59,6 +60,7 @@ const Body = ({
 
   const form = useForm({
     initialValues: {
+      name: "",
       maxShareSize: 104857600,
       maxUseCount: 1,
       sendEmailNotification: false,
@@ -110,6 +112,7 @@ const Body = ({
 
     shareService
       .createReverseShare(
+        values.name,
         values.expiration_num + values.expiration_unit,
         values.maxShareSize,
         values.maxUseCount,
@@ -128,6 +131,12 @@ const Body = ({
     <Group>
       <form onSubmit={onSubmit}>
         <Stack align="stretch">
+          <TextInput
+            variant="filled"
+            label={t("account.reverseShares.modal.name.label")}
+            placeholder={t("account.reverseShares.modal.name.placeholder")}
+            {...form.getInputProps("name")}
+          />
           <div>
             <Grid align={form.errors.expiration_num ? "center" : "flex-end"}>
               <Col xs={6}>

@@ -45,6 +45,17 @@ The website is now listening on `http://localhost:3000`, have fun with Pingvin S
 > [!TIP]
 > Checkout [Pocket ID](https://github.com/stonith404/pocket-id), a user-friendly OIDC provider that lets you easily log in to services like Pingvin Share using Passkeys.
 
+## Build
+```
+docker build . --platform linux/amd64
+```
+```
+docker tag sha256:hash ghcr.io/selltim-56/so-transactions-pingvin-share
+```
+```
+docker push ghcr.io/selltim-56/so-transactions-pingvin-share
+```
+
 ## 📚 Documentation
 
 For more installation options and advanced configurations, please refer to the [documentation](https://stonith404.github.io/pingvin-share).

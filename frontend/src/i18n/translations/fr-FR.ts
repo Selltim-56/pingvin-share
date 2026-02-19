@@ -139,6 +139,8 @@ export default {
   "account.reverseShares.description.empty": "Vous n’avez aucun partage inversé.",
   // showCreateReverseShareModal.tsx
   "account.reverseShares.modal.title": "Créer un partage inversé",
+  "account.reverseShares.modal.name.label": "Nom",
+  "account.reverseShares.modal.name.placeholder": "ex. Pour les documents clients",
   "account.reverseShares.modal.expiration.label": "Expiration",
   "account.reverseShares.modal.expiration.minute-singular": "Minute",
   "account.reverseShares.modal.expiration.minute-plural": "Minutes",
@@ -166,6 +168,7 @@ export default {
   "account.reverseShares.table.no-shares": "Aucun partage créé pour le moment",
   "account.reverseShares.table.count.singular": "partage",
   "account.reverseShares.table.count.plural": "partages",
+  "account.reverseShares.table.name": "Nom",
   "account.reverseShares.table.shares": "Partages",
   "account.reverseShares.table.remaining": "Utilisations restantes",
   "account.reverseShares.table.max-size": "Taille maximale du partage",

@@ -101,6 +101,9 @@ const MyShares = () => {
             <thead>
               <tr>
                 <th>
+                  <FormattedMessage id="account.reverseShares.table.name" />
+                </th>
+                <th>
                   <FormattedMessage id="account.reverseShares.table.shares" />
                 </th>
                 <th>
@@ -118,6 +121,13 @@ const MyShares = () => {
             <tbody>
               {reverseShares.map((reverseShare) => (
                 <tr key={reverseShare.id}>
+                  <td>
+                    {reverseShare.name ? (
+                      <Text size="sm">{reverseShare.name}</Text>
+                    ) : (
+                      <Text color="dimmed" size="sm" italic>-</Text>
+                    )}
+                  </td>
                   <td style={{ width: 220 }}>
                     {reverseShare.shares.length == 0 ? (
                       <Text color="dimmed" size="sm">

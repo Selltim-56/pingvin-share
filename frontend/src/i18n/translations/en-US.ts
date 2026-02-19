@@ -182,6 +182,8 @@ export default {
 
   // showCreateReverseShareModal.tsx
   "account.reverseShares.modal.title": "Create reverse share",
+  "account.reverseShares.modal.name.label": "Name",
+  "account.reverseShares.modal.name.placeholder": "e.g. For client documents",
   "account.reverseShares.modal.expiration.label": "Expiration",
   "account.reverseShares.modal.expiration.minute-singular": "Minute",
   "account.reverseShares.modal.expiration.minute-plural": "Minutes",
@@ -220,6 +222,7 @@ export default {
   "account.reverseShares.table.no-shares": "No shares created yet",
   "account.reverseShares.table.count.singular": "share",
   "account.reverseShares.table.count.plural": "shares",
+  "account.reverseShares.table.name": "Name",
   "account.reverseShares.table.shares": "Shares",
   "account.reverseShares.table.remaining": "Remaining uses",
   "account.reverseShares.table.max-size": "Max share size",
